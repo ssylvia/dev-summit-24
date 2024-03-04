@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: "/dev-summit-24",
+  basePath: process.env.BASE_URL,
 };
 
 export default nextConfig;
