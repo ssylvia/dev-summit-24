@@ -35,18 +35,17 @@ export default function EmbedResize() {
         }
 
         .block:nth-child(3n - 1) {
-          background-color: #C9E7F8;
+          background-color: #0077BD;
         }
         .block:nth-child(3n) {
-          background-color: #A5BBBB;
+          background-color: #F36916;
         }
-
         .block:nth-child(3n + 1) {
           background-color: #00807C;
         }
 
         button {
-          background-color: #F36916;
+          background-color: #41A54F;
           margin: 6px;
         }
         `}</style>
