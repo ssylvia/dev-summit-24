@@ -36,7 +36,7 @@ export default function AspectRatio() {
   return (
     // @ts-ignore
     <main className="p-4 flex justify-center">
-      <div className="rounded-lg flex place-items-center justify-center">Aspect Ratio: {aspectRatio}<br />Height: {window.innerHeight}px<br />Width: {window.innerWidth}px</div>
+      <div className="rounded-lg flex place-items-center justify-center">Aspect Ratio: {aspectRatio}<br />Height: {typeof window !== 'undefined' && window.innerHeight}px<br />Width: {typeof window !== 'undefined' && window.innerWidth}px</div>
       <style jsx>{`
         main {
           height: 100vh;
